@@ -1,0 +1,61 @@
+
+.topnav {
+  background-color: rgb(163, 154, 154);
+  overflow:auto
+}
+/*figure out how to get image to load properly*/
+
+
+.topnav {
+    color: #836378;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 22px;
+    font-family:Georgia, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial','sans-serif';
+    font-style:inherit
+
+}
+.topnav a {
+  float: right;
+  color: #483cb4;
+  justify-content: flex-end;
+  display: flex;
+  text-align: right;
+  padding: 20px 22px;
+  font-family:Georgia, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial','sans-serif';
+  font-style:inherit
+}
+.topnav a:hover {
+  background-color: rgb(66, 13, 165);
+  color: rgb(235, 234, 234);
+}
+
+.topnav a.active {
+  color: #3d0dad;
+  background-color: #970773;
+  color: white;
+}
+
+body div {
+background-color: rgb(235, 233, 240);
+background-position: 200px;
+justify-content: flex-start;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-display:initial;
+text-decoration-color: azure;
+}
+
+.me {
+  width: 300px
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
