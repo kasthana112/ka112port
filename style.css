@@ -6,7 +6,7 @@
   flex-basis: 70%;
  }
  .right-column div{
-  margin-right: 20%;
+  /*margin-right: 20%;*/
   margin-top: 2%;
  }
  .text-block {
@@ -56,10 +56,14 @@
   max-width: 250px;
   border: 5px solid #9e0865;
   margin-block: 10px;
+  width: 40%;
+  height: 20vh;
 }
 #sub-image-div2{
   display: 500px;
-  margin-block
+  /*margin-block*/
+  max-width: 54%;
+  margin: auto;
 }
 
 #footer {
