@@ -1,29 +1,38 @@
-
-.topnav {
-  background-color: rgb(163, 154, 154);
-  overflow:auto
+.flex-section{
+  margin-top: 10px;
+  display: flex;
+ }
+ .right-column{
+  flex-basis: 70%;
+ }
+ .right-column div{
+  margin-left: 10%;
+ }
+ .left-column h2{
+  margin:auto;
 }
-/*figure out how to get image to load properly*/
-
 
 .topnav {
-    color: #836378;
+  background-color: rgb(231, 227, 227);
+}
+
+.topnav {
+    color: #c002a7;
     justify-content: space-between;
     display: flex;
-    padding: 20px 22px;
+    padding: 10px 100px;
     font-family:Georgia, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial','sans-serif';
     font-style:inherit
 
 }
 .topnav a {
-  float: right;
+  float: left;
   color: #483cb4;
   justify-content: flex-end;
   display: flex;
   text-align: right;
   padding: 20px 22px;
   font-family:Georgia, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial','sans-serif';
-  font-style:inherit
 }
 .topnav a:hover {
   background-color: rgb(66, 13, 165);
@@ -36,37 +45,38 @@
   color: white;
 }
 
-body div {
-background-color: rgb(235, 233, 240);
-background-position: 200px;
-justify-content: flex-start;
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-font-display:initial;
-text-decoration-color: azure;
-}
-
-.me {
-  width: 200xp
-}
-.container {
-  position: relative;
-}
 .text-block {
-  position: absolute;
-  bottom: 200px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(233, 223, 223);
+  color: rgb(69, 14, 196);
+  padding-left: 10px;
+  padding-right: 0px;
+}
+#coffee image{
+  display: flex
+  margin: 0;
+}
+#coffee img{
+  max-width:10000px;
+  border: 5px solid #b4c5e4;
+  margin: 5px
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
+#sub-image-div2 img{
+  max-width: 200px;
+  border: 5px solid #b4c5e4;
+  margin: 5px
+}
+#sub-image-div2{
+  display: 500px;
+  margin: 0;
+}
+
+#footer{
+  color: #c002a7;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
